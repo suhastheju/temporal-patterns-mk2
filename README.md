@@ -3,7 +3,9 @@
 ## Overview
 This software repository contains an experimental software implementation of algorithms for solving a set of pattern-detection problems in temporal graphs. The software is written in C programming language.
 
-This version of the source code is realeased for BIG DATA special issue -- best of SDM2020 submission titled "Finding path motifs in large temporal graphs using algebraic fingerprints".
+This version of the source code is realeased for BIG-DATA journal special issue -- Best of SDM20 submission titled "Finding path motifs in large temporal graphs using algebraic fingerprints".
+
+An earlier version of this work appeared in the SIAM International Conference on Data Mining (SDM20) titled "Pattern detection in large temporal graphs using algebraic fingerprints".
 
 ## License
 The source code is subject to MIT license.
@@ -16,10 +18,13 @@ Use GNU make to build the software. Check 'Makefile' for more details.
 `make clean all`
 
 ## Using the software
-usage:  `./LISTER_PAR_GENF2 -pre <value> -optimal -<command-type> -seed <value> -in <input-file> -<file-type>`
-        `./LISTER_PAR_GENF2 -h/help`
+usage:  
+
+        ./LISTER_PAR_GENF2 -pre <value> -optimal -<command-type> -seed <value> -in <input-file> -<file-type>
+        ./LISTER_PAR_GENF2 -h/help
 
 Arguments:
+
         -pre <value>      : <0>   -  no preprocessing (default)
                             <1>   -  preprocess step-1
                             <2>   -  preprocess step-2
